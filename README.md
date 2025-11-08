@@ -52,7 +52,7 @@ FPGA-Based-Overcurrent-Relay/
 │
 ├── /hdl/              # Synthesizable Verilog source files (MAF, RMS, REM, Top-Level)
 ├── /tb/               # Testbench files (final_relay_tb.v)
-├── /constrs/          # Xilinx Design Constraints (.xdc)
+├── /ip_core/          # VHD source for cordic ip or sq. root
 ├── /doc/              # Project report, documentation, and flowchart
 ├── /sim_waveforms/    # Simulation result screenshots
 └── README.md          # This file
