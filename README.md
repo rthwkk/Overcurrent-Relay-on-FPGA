@@ -42,7 +42,12 @@ The original report can be found in the [`/doc`](./doc) folder.
         └────────────┘       └────────────────┘       └────────────┘
 
 
+
 ---
+
+### ✅ How to paste it
+When you add it to your `README.md`, remove the **outer** ```markdown lines** (those are just for ChatGPT formatting).  
+So your actual section in the README should look like this:
 
 ```text
 ## 📂 Repository Structure
