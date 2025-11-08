@@ -1,15 +1,14 @@
-FPGA-Based Overcurrent Relay
+# ⚡ FPGA-Based Overcurrent Relay  
 
-This is a Xilinx Vivado project for the "Design and Implementation of an Overcurrent Relay on FPGA." The design is implemented in Verilog and targets the XC7A100T Artix-7 FPGA.
+**Design and Implementation of an Overcurrent Relay on FPGA (Xilinx Artix-7)**  
 
-Features
+This project demonstrates the design and FPGA implementation of a **digital overcurrent relay** using **Verilog HDL** on the **XC7A100T Artix-7** FPGA.  
+It is based on the academic work by **Sanjay R Senan, Rithwik D, Rinoofa Sherin MM, Mohammed Ryan Mullaveettil, and Rinky Kumari** from **NIT Calicut**.  
+The original report can be found in the [`/doc`](./doc) folder.  
 
-Pipelined Architecture: The design uses a three-stage pipeline (Filter $\rightarrow$ Measure $\rightarrow$ Protect) for high-speed, parallel operation.
+---
 
-Efficient Filtering: A 4-sample Moving Average Filter (MAF) normalizes harmonics using only bit-shifting and addition.
+## 🚀 Features  
 
-Accurate RMS Measurement: An efficient 16-sample moving window is used to calculate the $I_{rms}$ value.
-
-CORDIC IP Core: Utilizes the Xilinx CORDIC IP for hardware-accelerated square root calculation.
-
-Protection Logic: Implements an Instantaneous Overcurrent Relay (or IDMT, specify which one you implemented) that generates a latching trip signal.
+- **Pipelined Architecture**  
+  Three-stage pipeline for high-speed operation:  
