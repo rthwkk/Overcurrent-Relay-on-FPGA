@@ -45,6 +45,7 @@ The original report can be found in the [`/doc`](./doc) folder.
 
 ---
 
+```text
 📁 Repository Structure
 
 FPGA-Based-Overcurrent-Relay/
