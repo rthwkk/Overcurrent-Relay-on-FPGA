@@ -33,17 +33,6 @@ The original report can be found in the [`/doc`](./doc) folder.
 - Generates a **latching trip signal** when the RMS current exceeds the threshold  
 
 
----
-
-✅ **Important:**  
-- The inner code block uses ` ```text ` instead of ` ``` ` — this keeps spacing consistent.  
-- The outer triple backticks (` ```markdown ... ``` `) are only for formatting inside ChatGPT.  
-  In your actual README, just keep **one set** — like this:
-
----
-
-✅ **Final README snippet to use directly:**
-
 ```text
 ## 📘 Module Flow Diagram
 
