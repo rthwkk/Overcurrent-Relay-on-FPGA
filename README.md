@@ -73,7 +73,7 @@ FPGA-Based-Overcurrent-Relay/
 - Add all files from `/tb` → *Simulation Sources*  
 - Add constraint file from `/constrs` → *Constraints*
 
-### 3. Generate CORDIC IP Core  
+### 3. Generate CORDIC IP Core  ( or Use the one in [`/ip_core`](./ip_core) )
 1. Open **IP Catalog**.  
 2. Search for **CORDIC**.  
 3. Configure as follows:  
